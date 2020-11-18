@@ -21,7 +21,7 @@ lookFor = [
 status = {}
 #from twilio.rest import Client
 #client = Client("your_twillio_keys", "your_twillio_id")
-driver = webdriver.Chrome("C:/Users/cremwood/Downloads/chromedriver_win32/chromedriver.exe")
+driver = webdriver.Chrome("'PathToDriver'/chromedriver.exe")
 for currentSite in range(len(sites)):
     driver.get(sites[currentSite])
     print("Checking:" + driver.title)
